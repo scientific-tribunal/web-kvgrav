@@ -3,11 +3,13 @@
     <h1>Приложение KVGrav</h1>
     <p>KVGrav представляет собой 2D эмулятор гравитации.</p>
     <p>Приложение является сайтом-приложением работающим в любом современно браузере с возможностью установки на Windows, Linux и macOS (PWA). Приложению не требуется доступ в интернет для его функционирования.<br>
-      Приложение полностью бесплатно, код открыт и доступен на <a class="text-reset" target="_blank" href="https://github.com/scientific-tribunal/">github</a> по лицензии Apache-2.0
+      Приложение полностью бесплатно, код открыт и доступен на <a class="text-reset" target="_blank" href="https://github.com/scientific-tribunal/web-kvgrav">github</a> по лицензии Apache-2.0
     </p>
     <p>Версия приложения: {{ versionApp() }} <a type="button" @click="reload" class="btn _btn-outline-secondary btn-sm"
                                                 data-bs-toggle="tooltip" data-bs-title="App update"><i
       class="fa-solid fa-arrows-rotate"></i></a></p>
+    <p>Для обмена состояниями объектов, для добавления, удаления и редактирования используйте функцию <a class="text-reset" target="_blank" href="https://github.com/scientific-tribunal/web-kvgrav/blob/main/ImportExport.md">импорт/экспорт</a>
+    </p>
     <p>Текущие возможности:</p>
     <ul>
       <li>Эмуляция физики (взаимодействие объектов друг с другом и с внешним полем). Подробнее <a class="text-reset" target="_blank"
@@ -24,7 +26,7 @@
     <ul>
       <li>Поддержка энерции (после добавления в библиотеку <a class="text-reset" target="_blank" href="https://github.com/scientific-tribunal/kvgrav">KVGrav</a>)</li>
       <li>Уничтожение объектов при выходе за рамки внешнего поля</li>
-      <li>Загрузка объектов предложенных сообществом (вы можете уже предлагать свои файлы экспорта)</li>
+      <li>Загрузка объектов предложенных сообществом (вы можете уже <a class="text-reset" target="_blank" href="https://github.com/scientific-tribunal/web-kvgrav/blob/main/ImportExport.md#активным-участникам">предлагать</a>) свои файлы экспорта)</li>
       <li>Добавление параметров физики (сила поля и т.д.) в файл импорта и экспорта</li>
       <li>Изменение объектов по клику на него, перемещение мышкой и т.д.</li>
       <li>Отображение сил для выбранного объекта</li>

@@ -7,5 +7,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:scientific-tribunal/web-kvgrav.git main:gh-pages
+git push -f git@github.com:scientific-tribunal/web-kvgrav.git master:gh-pages
 cd -
